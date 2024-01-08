@@ -32,7 +32,19 @@
 -   Improvements
     -   ELRS with true diversity built in
     -   SD card slot for blackbox
-    -   new SPI barometer
+    -   new SPI barometer (Goertek SPL06-001)
     -   synchronous buck converters: smaller (, more efficient)
 -   Fixes
     -   removed pullup on current sensor (A relic from the INA139)
+-   Known issues
+    -   100nF 0402 caps on the bottom layer are very close to each other, causing solder bridges - no issue but not ideal
+    -   WiFi antenna poor range (5-10 cm), not sure why
+    -   ELRS boot pad is hard to reach
+    -   SX1281 crystals 90 degrees rotated --> SX1281 doesn't work at all (jank fix works)
+    -   forgot I2C pullups. No issue rn (no sensors using I2C), but with a compass it might be
+    -   Bad ELRS range --> a few possible reasons
+        -   LNA not working --> most likely (yet reason still unknown), because the RSSI has a very fast jump from about -25 to -75dBm, indicating something else than a pure passives issue. Also, in the transmission path (telemetry), everything works fine, indicating that the PCB and passive components are fine in general
+        -   pads grounded insufficiently --> my bad, I didn't compare the library footprint with the datasheet, some pads are not grounded, as they were marked NC in the library but GND in the datasheet --> I put a solder bridge on the pads that are not grounded, and still it doesn't work well, so still unlikely
+        -   AT2401C just not working? --> unlikely, but maybe there's a difference between this clone and the RFX2401C
+        -   All of them are pretty unlikely, given the weird jump, but I don't know what else it could be
+    -   OSD crystal seems to have too little capacitance --> Analog part of the IC doesn't work, digital does. Using a 2016 size 10pF crystal instead of the 1612 9pF crystal helped
