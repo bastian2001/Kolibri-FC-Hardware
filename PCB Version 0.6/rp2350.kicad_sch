@@ -2928,15 +2928,6 @@
 		(uuid "1105e3ff-a6d1-4add-994a-e066d5207d1c")
 	)
 	(bus_entry
-		(at 255.27 191.77)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15605271-320e-4dc9-aa22-072812142dad")
-	)
-	(bus_entry
 		(at 269.24 107.95)
 		(size 2.54 2.54)
 		(stroke
@@ -3007,15 +2998,6 @@
 			(type default)
 		)
 		(uuid "75130b6d-b449-4833-9582-e77b61f55eb1")
-	)
-	(bus_entry
-		(at 255.27 194.31)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842385a0-f953-4bd1-9ecd-036d0e4aa45f")
 	)
 	(bus_entry
 		(at 255.27 181.61)
@@ -3465,16 +3447,6 @@
 		)
 		(uuid "38792915-6fc5-4efa-9e00-cef57c5dcca1")
 	)
-	(bus
-		(pts
-			(xy 257.81 194.31) (xy 257.81 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a1d31e0-788a-4a0d-bb20-52ad08b073a9")
-	)
 	(wire
 		(pts
 			(xy 185.42 82.55) (xy 195.58 82.55)
@@ -3517,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 184.15) (xy 345.44 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402f7a83-3d95-41d1-87f1-e8301d82b936")
+	)
+	(wire
+		(pts
 			(xy 113.03 114.3) (xy 113.03 120.65)
 		)
 		(stroke
@@ -3547,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 186.69) (xy 345.44 186.69)
+			(xy 330.2 173.99) (xy 345.44 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3647,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 163.83) (xy 345.44 163.83)
+			(xy 330.2 151.13) (xy 345.44 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4137,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 165.1) (xy 345.44 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa97a783-579b-417b-a733-e22864c22c93")
+	)
+	(wire
+		(pts
 			(xy 100.33 92.71) (xy 100.33 96.52)
 		)
 		(stroke
@@ -4265,19 +4257,9 @@
 		)
 		(uuid "c74418c6-67b2-4e33-ab0d-d789addbdc86")
 	)
-	(bus
-		(pts
-			(xy 257.81 196.85) (xy 290.83 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92e5500-212a-460c-a459-b8c169fd3aff")
-	)
 	(wire
 		(pts
-			(xy 330.2 158.75) (xy 345.44 158.75)
+			(xy 330.2 146.05) (xy 345.44 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4349,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 151.13) (xy 345.44 151.13)
+			(xy 330.2 138.43) (xy 345.44 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4397,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 171.45) (xy 345.44 171.45)
+			(xy 330.2 158.75) (xy 345.44 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4487,7 +4469,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 189.23) (xy 345.44 189.23)
+			(xy 330.2 176.53) (xy 345.44 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4577,7 +4559,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 161.29) (xy 345.44 161.29)
+			(xy 330.2 148.59) (xy 345.44 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4745,15 +4727,15 @@
 		)
 		(uuid "34714efe-4c04-4a36-9e32-4cc8f46f3c8d")
 	)
-	(label "ADC.Curr"
-		(at 255.27 191.77 180)
+	(label "VBat_ADC"
+		(at 330.2 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3734a2bb-7995-4425-8a11-7a1dfd9f0ef6")
+		(uuid "3d93ac8c-fc87-42a2-8156-7e9786926d11")
 	)
 	(label "Motor.3"
 		(at 303.53 246.38 90)
@@ -4766,7 +4748,7 @@
 		(uuid "3ebc3afa-de1f-4bc7-b3fc-af9ea8d061ad")
 	)
 	(label "OSD_SS"
-		(at 330.2 151.13 0)
+		(at 330.2 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4785,7 +4767,17 @@
 		)
 		(uuid "45ab3f29-6700-45b7-aad7-cd6b1a638c41")
 	)
-	(label "ADC.VBat"
+	(label "DCDC_EN"
+		(at 330.2 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47aeb70f-a4ac-4102-928c-5da5074a6f9b")
+	)
+	(label "VBat_ADC"
 		(at 255.27 194.31 180)
 		(effects
 			(font
@@ -4835,6 +4827,16 @@
 		)
 		(uuid "5794e6f9-9806-48a2-b22c-d21bcfc0d9b3")
 	)
+	(label "DCDC_EN"
+		(at 255.27 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d6c1e4c-980f-4d3a-beb8-e5a084178da6")
+	)
 	(label "SPI_Flash.SCLK"
 		(at 255.27 158.75 180)
 		(effects
@@ -4846,7 +4848,7 @@
 		(uuid "5d7de0e6-7ca7-4971-863e-52f0caf18343")
 	)
 	(label "LED"
-		(at 330.2 189.23 0)
+		(at 330.2 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4876,7 +4878,7 @@
 		(uuid "67424193-1045-490c-8a5d-f15518a50892")
 	)
 	(label "Gyro_SS"
-		(at 330.2 161.29 0)
+		(at 330.2 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4886,7 +4888,7 @@
 		(uuid "7b399e48-d2d4-4bea-b773-5b36ac665394")
 	)
 	(label "Gyro_Int"
-		(at 330.2 158.75 0)
+		(at 330.2 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5046,7 +5048,7 @@
 		(uuid "b081fce7-a0e4-488c-b21d-8a86099ac0c3")
 	)
 	(label "Speaker"
-		(at 330.2 186.69 0)
+		(at 330.2 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5056,7 +5058,7 @@
 		(uuid "bc040efb-46cb-4697-8705-f3b31f3f8c56")
 	)
 	(label "Flash_SS"
-		(at 330.2 171.45 0)
+		(at 330.2 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5085,18 +5087,8 @@
 		)
 		(uuid "c721bc84-1f49-4042-a19b-fa96b86e9ce2")
 	)
-	(label "ADC{Curr VBat}"
-		(at 264.16 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c78ac807-8230-45b4-adc5-9a32be410724")
-	)
 	(label "Gyro_FSync"
-		(at 330.2 163.83 0)
+		(at 330.2 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +5199,7 @@
 	)
 	(hierarchical_label "Gyro_Int"
 		(shape input)
-		(at 345.44 158.75 0)
+		(at 345.44 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5229,7 +5221,7 @@
 	)
 	(hierarchical_label "Gyro_FSync"
 		(shape output)
-		(at 345.44 163.83 0)
+		(at 345.44 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5237,6 +5229,17 @@
 			(justify left)
 		)
 		(uuid "368b0fa3-d43a-40b4-9057-06e86cf822bf")
+	)
+	(hierarchical_label "DCDC_EN"
+		(shape output)
+		(at 345.44 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45457b80-ef6d-47dc-a082-880e1bb68035")
 	)
 	(hierarchical_label "UART0"
 		(shape bidirectional)
@@ -5251,7 +5254,7 @@
 	)
 	(hierarchical_label "Flash_SS"
 		(shape output)
-		(at 345.44 171.45 0)
+		(at 345.44 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5273,7 +5276,7 @@
 	)
 	(hierarchical_label "Gyro_SS"
 		(shape output)
-		(at 345.44 161.29 0)
+		(at 345.44 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5315,17 +5318,6 @@
 		)
 		(uuid "ada6951c-31b5-4426-b7af-269edf9ede87")
 	)
-	(hierarchical_label "ADC"
-		(shape input)
-		(at 290.83 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b020a554-3554-43f6-b020-d8949febdd49")
-	)
 	(hierarchical_label "SPI1"
 		(shape bidirectional)
 		(at 290.83 158.75 0)
@@ -5350,7 +5342,7 @@
 	)
 	(hierarchical_label "Speaker"
 		(shape output)
-		(at 345.44 186.69 0)
+		(at 345.44 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5372,7 +5364,7 @@
 	)
 	(hierarchical_label "LED"
 		(shape output)
-		(at 345.44 189.23 0)
+		(at 345.44 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5394,7 +5386,7 @@
 	)
 	(hierarchical_label "OSD_SS"
 		(shape output)
-		(at 345.44 151.13 0)
+		(at 345.44 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5402,6 +5394,17 @@
 			(justify left)
 		)
 		(uuid "f79307f3-8886-419b-9458-46205a6890d3")
+	)
+	(hierarchical_label "VBat_ADC"
+		(shape input)
+		(at 345.44 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe1777c3-28a5-4f2d-8053-1f54559d19e8")
 	)
 	(symbol
 		(lib_id "Device:L")

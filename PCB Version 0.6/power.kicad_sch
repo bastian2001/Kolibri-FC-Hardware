@@ -3257,6 +3257,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 118.11) (xy 63.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77353adc-a4ea-44af-b6ed-208762a35ce7")
+	)
+	(wire
+		(pts
 			(xy 236.22 64.77) (xy 246.38 64.77)
 		)
 		(stroke
@@ -3407,16 +3417,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.11) (xy 52.07 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9652586-223f-42f5-9781-e88ed5163995")
-	)
-	(wire
-		(pts
 			(xy 265.43 123.19) (xy 265.43 121.92)
 		)
 		(stroke
@@ -3424,6 +3424,16 @@
 			(type default)
 		)
 		(uuid "a968e5c1-d2ed-402f-85f2-21b62a862b9f")
+	)
+	(wire
+		(pts
+			(xy 27.94 143.51) (xy 52.07 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbae869-d343-4fe5-80a4-2d4603160688")
 	)
 	(wire
 		(pts
@@ -3597,16 +3607,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 118.11) (xy 52.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d3f5da-25cf-4d37-95b5-547aea3f1ed0")
-	)
-	(wire
-		(pts
 			(xy 109.22 113.03) (xy 113.03 113.03)
 		)
 		(stroke
@@ -3704,6 +3704,37 @@
 			(type default)
 		)
 		(uuid "fcdaac41-442c-4bfd-aeea-5ed37781667a")
+	)
+	(label "DCDC_EN"
+		(at 53.34 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48e6d19b-5aa7-47da-b4ef-a72ded1f2419")
+	)
+	(label "DCDC_EN"
+		(at 46.99 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1ffe37c-d849-4c46-9d2c-c37215531313")
+	)
+	(hierarchical_label "DCDC_EN"
+		(shape input)
+		(at 27.94 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15f6a87c-ec06-450e-9f30-39ed29959095")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5391,6 +5422,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "626c01df-caaf-4093-9aee-d756b15b08e7")
+		(property "Reference" "R10"
+			(at 54.356 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 58.42 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 55.88 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "819385d5-e742-44d6-9690-bc04f65254b4")
+		)
+		(pin "1"
+			(uuid "f0fe91ad-6553-477c-9a67-8b4472649557")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c47ad1ff-c88e-42df-ba75-e03e62e860dd"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 71.12 0)
 		(unit 1)
@@ -5451,6 +5549,73 @@
 			(project ""
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c47ad1ff-c88e-42df-ba75-e03e62e860dd"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 59.69 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68861349-cf16-467f-8018-035670f68f38")
+		(property "Reference" "#PWR030"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.5 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 59.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b754078a-13ed-4775-ad92-a55832a1ccc8")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c47ad1ff-c88e-42df-ba75-e03e62e860dd"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

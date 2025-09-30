@@ -1962,6 +1962,10 @@
 		(uuid "43010417-86b1-4d96-8e22-460425433324")
 	)
 	(no_connect
+		(at 71.12 55.88)
+		(uuid "4eb692a1-8375-4692-826e-9e09da84ab68")
+	)
+	(no_connect
 		(at 71.12 53.34)
 		(uuid "b803a472-9c0d-4078-8bf3-341a09e30ed9")
 	)
@@ -2399,16 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 55.88) (xy 71.12 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be92c8d-60da-486f-806a-9c3b8351cca1")
-	)
-	(wire
-		(pts
 			(xy 66.04 162.56) (xy 66.04 167.64)
 		)
 		(stroke
@@ -2677,16 +2671,6 @@
 		)
 		(uuid "a0ba3503-a1a1-4fbf-ab31-363d8bc2c0bf")
 	)
-	(wire
-		(pts
-			(xy 35.56 76.2) (xy 46.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5657470-a40d-4b60-bb00-a7d4fbd04b9e")
-	)
 	(bus
 		(pts
 			(xy 139.7 118.11) (xy 139.7 121.92)
@@ -2897,16 +2881,6 @@
 		)
 		(uuid "062b6c2a-890d-489f-a18f-880d829fdcdf")
 	)
-	(label "Curr_ESC"
-		(at 54.61 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d388658-d022-4224-b9d4-86e622a6b5f5")
-	)
 	(label "Motor.1"
 		(at 54.61 43.18 0)
 		(effects
@@ -2936,16 +2910,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ae7dfbb-c3bd-442a-a11e-666786ca8d3f")
-	)
-	(label "Curr_ESC"
-		(at 35.56 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ce34df6-548c-4b18-b001-de9ef5f3f407")
 	)
 	(label "U2.RX"
 		(at 58.42 160.02 0)
@@ -3300,17 +3264,6 @@
 			(justify right)
 		)
 		(uuid "47f39ba5-3ab0-457f-a04a-c371540b72a4")
-	)
-	(hierarchical_label "Curr_ESC"
-		(shape output)
-		(at 50.8 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "78dbb070-301f-43d3-ab1f-00d9774d1e81")
 	)
 	(hierarchical_label "Motors"
 		(shape bidirectional)
@@ -5922,73 +5875,6 @@
 			(project ""
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_rounded")
-		(at 49.53 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf52f837-b807-4385-9ceb-b72e89c6e09a")
-		(property "Reference" "P5"
-			(at 52.07 75.5649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 52.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_rounded"
-			(at 49.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b7c4815-5915-4cad-9f99-c22846a99f2f")
-		)
-		(instances
-			(project "Kolibri v0.5"
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
-					(reference "P5")
 					(unit 1)
 				)
 			)
