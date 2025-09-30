@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "4347d5b4-d455-4695-93a4-c9c69aa47226")
 	(paper "A5")
+	(title_block
+		(title "Kolibri FC - Blackbox Flash")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
