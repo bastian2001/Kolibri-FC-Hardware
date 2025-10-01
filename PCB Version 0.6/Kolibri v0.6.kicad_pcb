@@ -574,6 +574,78 @@
 			)
 		)
 	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "02f267d8-7740-4436-8816-a523c4978ff6")
+		(at 92.5 111.4)
+		(property "Reference" "P16"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66d0b8c4-3e7c-4899-8bc8-efccb02f91ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a786d367-a616-4b10-b402-43e008f8d423")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e7067c1-9d14-42e5-850a-ae973dcedd8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f265f884-0eed-4234-bded-c1ba8b8241df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/f65324f8-fdd4-463e-bd7a-cf8da7460941")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 85 "/U0.TX")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "84f2a707-06d2-4632-a62f-4548c15a894c")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0556fb2a-3cde-4823-951a-2a6344345038")
@@ -1439,6 +1511,80 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Kolibri custom:Solder_Pad_octa"
+		(layer "F.Cu")
+		(uuid "0a683a9a-f2c3-4a06-ac6b-415846794ac9")
+		(at 92.5 87)
+		(property "Reference" "P25"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c5abb6e4-1ccb-4b45-9336-177e6f660aba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e1b03e7-d63e-4547-a32f-eac8aa01966a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a92eb19-a938-410e-bbb0-e5d8ce3e5553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0458db8a-4b87-4896-be2d-993e447c161c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/c55b1bf4-0161-462e-b78f-9f94aecd5563")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0)
+			(chamfer_ratio 0.3)
+			(chamfer top_left top_right bottom_left bottom_right)
+			(net 8 "+5V")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "e64fcc36-97fa-47a9-a2ca-38d66cea7e15")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "SamacSys_Parts:QFN50P400X400X100-25N-D"
 		(layer "F.Cu")
 		(uuid "0cb635f6-a77b-4896-b198-2eb895272227")
@@ -2123,6 +2269,78 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "10539b0e-a813-49d2-9bc2-ea4599ac8d7c")
+		(at 105.4 87)
+		(property "Reference" "P10"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d502b1f-66a4-494f-ab41-f2915c6e1008")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c9d50b2-000a-4a1b-8a96-cc89f5e153a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8301ba2-481a-47d7-af68-0f2e5e63e0bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea328da1-5d57-40b2-988d-5040d8a34221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/fc9a95b3-4975-476d-ba76-aa37f7af476c")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 78 "/U2.TX")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "f8274a32-5e47-4dae-8f63-af14fb8a56ba")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
 		(layer "F.Cu")
@@ -5432,7 +5650,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rect"
 		(layer "F.Cu")
 		(uuid "296e0280-c05f-4ced-89dc-18ce4621855f")
-		(at 87 95.4)
+		(at 87 95.6)
 		(property "Reference" "P27"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -6102,6 +6320,78 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "396070bf-37fc-468d-8fc1-165b7377a6ae")
+		(at 100 87)
+		(property "Reference" "P19"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4547a789-1e61-445d-a7ce-993695ca4a54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "294f846f-77f0-4b3f-a633-9300d256b2b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e266c3ea-b09e-4753-9eb6-64142af69235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50040c3d-08a2-4273-b5fc-6f8988163daa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/ff7e587c-250c-475c-8e45-2eaef376774a")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 41 "/Spk.+")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "1a6edcfa-24ff-4da7-9c9b-ef53b92ad469")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -7350,7 +7640,7 @@
 	(footprint "Kolibri custom:Solder_Pad_octa"
 		(layer "F.Cu")
 		(uuid "45f8f68d-000f-40d0-a3ed-e3392215a6a7")
-		(at 87 93.6)
+		(at 87 93.8)
 		(property "Reference" "P31"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -7625,7 +7915,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "F.Cu")
 		(uuid "4c6f5f6d-a092-4799-9fbf-cc349923209a")
-		(at 87 99)
+		(at 87 99.2)
 		(property "Reference" "P7"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -11734,6 +12024,80 @@
 			)
 		)
 	)
+	(footprint "Kolibri custom:Solder_Pad_octa"
+		(layer "F.Cu")
+		(uuid "756e68f1-9f64-4aef-a9c5-60df85dcaf5a")
+		(at 107.2 88.8)
+		(property "Reference" "P29"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "63bf0a73-59af-49c5-a19d-e04f23dae5fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98450059-e0a9-40a1-9b67-8f1edd628d49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b83e8ff7-5812-4964-ad05-e9ac04ec8142")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88e29528-fbaf-4b2b-b80c-f0a11a2b62bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/eccaee6e-35c0-43d4-ac3d-ea29e9839e7b")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0)
+			(chamfer_ratio 0.3)
+			(chamfer top_left top_right bottom_left bottom_right)
+			(net 8 "+5V")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "0f886b77-2e67-4219-92c3-ad85a9c34b9c")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7652e81b-7faa-40d7-8bc7-f05ec41eef94")
@@ -11938,7 +12302,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "F.Cu")
 		(uuid "7abaa35f-ab15-4f6b-91d0-5c703c79f0c5")
-		(at 87 90)
+		(at 87 90.2)
 		(property "Reference" "P9"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -12010,7 +12374,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "F.Cu")
 		(uuid "7b5d4b35-5d0c-4b6d-b411-d537333e1fae")
-		(at 101.3 81.95)
+		(at 103.6 87)
 		(property "Reference" "P5"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -12082,7 +12446,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "F.Cu")
 		(uuid "7bd4aad6-132c-493c-bda6-20de12051f45")
-		(at 87 97.2)
+		(at 87 97.4)
 		(property "Reference" "P6"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -15715,86 +16079,6 @@
 			)
 		)
 	)
-	(footprint "Kolibri custom:Solder_Pad_rect_dual"
-		(layer "F.Cu")
-		(uuid "9f63d0e7-0a08-4966-b502-77a89fcdd9ed")
-		(at 113 88.8)
-		(property "Reference" "P25"
-			(at 0 -0.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "57f79e87-d371-4791-801b-1aff7eff0d53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a57003af-42ad-484f-b198-4544e21f9bc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbe4392e-c9d6-4f42-b34d-53f8eb7d0cae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f7e39aba-dcfd-494b-aa50-1efcd8b00187")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/36847360-5f14-4f20-9653-4c9cc1cb75b8")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd rect
-			(at 0 0)
-			(size 1.2 1.2)
-			(layers "F.Cu" "F.Mask")
-			(net 1 "GND")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "226726d7-edfd-428e-ab47-769cb4bf7ffd")
-		)
-		(pad "2" smd rect
-			(at 0 0)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(net 1 "GND")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "54fb3729-cc55-4c8f-9db0-eca16a0ebfe9")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Kolibri custom:Button C530669 wo holes"
 		(layer "F.Cu")
 		(uuid "a03b3b83-e6f4-4b36-a4c5-0b2097c6f432")
@@ -16276,10 +16560,81 @@
 			)
 		)
 	)
+	(footprint "Kolibri custom:Solder_Pad_rect"
+		(layer "F.Cu")
+		(uuid "a249f886-930c-460b-aaf9-92cfe25cadca")
+		(at 107.2 87)
+		(property "Reference" "P22"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e2e49c4-26bb-43b4-b12d-ce626b14db71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f33042a6-7de0-4264-95ac-9b4dab188632")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f26c11a1-5c2e-49c8-85fa-22dca59b34cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8de948a-d1c2-4b18-8367-0c5c808d33fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/62dc0107-344a-4ec3-a069-8dd3a5f114ea")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(net 1 "GND")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "80394ccc-7e6e-4d04-9e2b-0fd323f0fe22")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a42396b5-8fb6-4f15-a722-90a11e644995")
-		(at 88.6 97.4 90)
+		(at 88.6 97.6 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C43"
@@ -18023,11 +18378,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b11f0278-9fbb-40b6-bbe6-a896d6a95a4c")
-		(at 87.4 114.05)
+		(at 102.2 89.8 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D16"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "44c76ad3-9112-410c-b1be-89d72be38aa0")
@@ -18039,7 +18394,7 @@
 			)
 		)
 		(property "Value" "blue"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df0479e0-b753-43ab-9673-dbc120b46fb5")
@@ -18051,7 +18406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57c0ffb9-a80f-4b7b-a98c-e344d30f9db0")
@@ -18063,7 +18418,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b727adb3-0fdf-4f1e-8a69-ffa75a1c84aa")
@@ -18079,6 +18434,16 @@
 		(sheetname "/LED/")
 		(sheetfile "LED.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a44fb9a-094a-4aba-a81b-4b94dffba93b")
+		)
 		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
@@ -18100,14 +18465,14 @@
 			(uuid "2d2ee030-90b9-4da1-b882-73e66aaf884b")
 		)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "2a44fb9a-094a-4aba-a81b-4b94dffba93b")
+			(layer "F.CrtYd")
+			(uuid "e740475d-1922-4297-a6f7-db5ad2b204c0")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -18120,26 +18485,6 @@
 			(uuid "db7fe6bd-69e3-48c0-a4ab-f9414a04fb78")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9720a281-4094-463d-984b-8a93af48011b")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e740475d-1922-4297-a6f7-db5ad2b204c0")
-		)
-		(fp_line
 			(start 1.48 0.73)
 			(end -1.48 0.73)
 			(stroke
@@ -18150,34 +18495,14 @@
 			(uuid "1188645a-1d2f-42f7-b7ca-3467943bb1b0")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "b8cc05dc-49d2-4853-9ff2-a00d30b3696c")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "424cb322-70be-4893-82ab-e83b4fd36047")
-		)
-		(fp_line
-			(start -0.5 -0.4)
-			(end -0.8 -0.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5f16a806-feb0-499e-9f71-a5720b5477a7")
+			(layer "F.CrtYd")
+			(uuid "9720a281-4094-463d-984b-8a93af48011b")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -18190,6 +18515,26 @@
 			(uuid "5f42350d-ce77-40e4-a9f2-50aaa7c97488")
 		)
 		(fp_line
+			(start -0.5 -0.4)
+			(end -0.8 -0.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5f16a806-feb0-499e-9f71-a5720b5477a7")
+		)
+		(fp_line
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b8cc05dc-49d2-4853-9ff2-a00d30b3696c")
+		)
+		(fp_line
 			(start 0.8 0.4)
 			(end 0.8 -0.4)
 			(stroke
@@ -18199,8 +18544,18 @@
 			(layer "F.Fab")
 			(uuid "b7d013fd-237a-4aa4-9db8-a82778dc2ea2")
 		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "424cb322-70be-4893-82ab-e83b4fd36047")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "6ef39429-3b7d-44f6-bb9a-50f53a65b41e")
 			(effects
@@ -18211,7 +18566,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18221,7 +18576,7 @@
 			(uuid "96bb9629-d3f0-4052-a00e-82706ca5e032")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18246,7 +18601,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "F.Cu")
 		(uuid "b4912197-dc5e-42a9-8c34-8f60981481c5")
-		(at 87 91.8)
+		(at 87 92)
 		(property "Reference" "P8"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -19305,7 +19660,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "F.Cu")
 		(uuid "d0a83a8b-9b7d-4f53-8ffe-c611fbf37b0d")
-		(at 101.3 84.15)
+		(at 101.8 87)
 		(property "Reference" "P18"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -19779,11 +20134,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d810659b-d891-4dcb-9737-8403868b4f34")
-		(at 89.9 114.25 180)
+		(at 103.4 89.25 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R30"
-			(at 0 -1.17 0)
+			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6ca094a3-9224-47bf-b644-2c3358898171")
@@ -19795,7 +20150,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68775bd1-c3e3-48cb-87d6-da1a4bd1377a")
@@ -19807,7 +20162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aab86688-6433-46ed-ad27-eb5f4a20099b")
@@ -19819,7 +20174,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67551211-2dbd-42bc-9658-6e54baec48dc")
@@ -19836,16 +20191,6 @@
 		(sheetfile "LED.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "897236c9-9d58-44d5-9e61-ca5bbfc459e0")
-		)
-		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
 			(stroke
@@ -19856,14 +20201,14 @@
 			(uuid "062cb478-a9b3-4fe4-b881-f743fca521e9")
 		)
 		(fp_line
-			(start 0.93 0.47)
-			(end -0.93 0.47)
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "999ec472-5d0d-45f1-a978-7c4ac72ca77f")
+			(layer "F.SilkS")
+			(uuid "897236c9-9d58-44d5-9e61-ca5bbfc459e0")
 		)
 		(fp_line
 			(start 0.93 -0.47)
@@ -19876,16 +20221,6 @@
 			(uuid "fe155d86-4bc6-4fef-bf0d-7d8de0066f93")
 		)
 		(fp_line
-			(start -0.93 0.47)
-			(end -0.93 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2b80c01f-c6c1-402c-8df4-8d67874581fd")
-		)
-		(fp_line
 			(start -0.93 -0.47)
 			(end 0.93 -0.47)
 			(stroke
@@ -19896,14 +20231,24 @@
 			(uuid "2349b2c3-bb1b-4423-bc74-5b16d12331eb")
 		)
 		(fp_line
-			(start 0.525 0.27)
-			(end -0.525 0.27)
+			(start 0.93 0.47)
+			(end -0.93 0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "cbd8243b-4e82-434f-8389-517a69d9f6dc")
+			(layer "F.CrtYd")
+			(uuid "999ec472-5d0d-45f1-a978-7c4ac72ca77f")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2b80c01f-c6c1-402c-8df4-8d67874581fd")
 		)
 		(fp_line
 			(start 0.525 -0.27)
@@ -19916,16 +20261,6 @@
 			(uuid "8f37508e-3c88-4b2c-a55d-47c079f3e33a")
 		)
 		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc1215ef-7633-47cc-8b36-833634f53549")
-		)
-		(fp_line
 			(start -0.525 -0.27)
 			(end 0.525 -0.27)
 			(stroke
@@ -19935,8 +20270,28 @@
 			(layer "F.Fab")
 			(uuid "bf6a3368-57b8-4f8f-8efe-ea7e30b321b1")
 		)
+		(fp_line
+			(start 0.525 0.27)
+			(end -0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cbd8243b-4e82-434f-8389-517a69d9f6dc")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bc1215ef-7633-47cc-8b36-833634f53549")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "04b9d08f-166f-4611-a41d-00eea89af300")
 			(effects
@@ -19947,7 +20302,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 180)
+			(at -0.51 0 90)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19956,7 +20311,7 @@
 			(uuid "22eb3e27-e1d3-4e0c-9574-1b770f03005b")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 180)
+			(at 0.51 0 90)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20148,6 +20503,78 @@
 				(xyz -0 -0 -90)
 			)
 		)
+	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "db13ec74-9aed-423a-af69-15569001ad87")
+		(at 93.4 109.5)
+		(property "Reference" "P17"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f4859ad-38d1-4c7e-a615-d3dd51308a79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62bc4b19-26c1-401c-85ed-f280b823f5b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30be59aa-1bfc-4eed-bd79-f00958ef7c07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89881915-148b-4376-b428-33d58eb22a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/720150f0-093d-4119-b3ac-c7cad0e9b5bb")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 86 "/U0.RX")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "6f17ae16-299d-4047-a8bf-6150e1c3c9de")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -20550,6 +20977,78 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "e65f071b-3ffd-4919-bb5f-eddb161a79d8")
+		(at 118.1 77.65)
+		(property "Reference" "P21"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b020c42a-f800-4753-bd65-e8b9c99c88a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d2d1dc1-b6fb-4df3-b97b-addb9fe213e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38ed2ca5-086e-4dcf-b3a5-9d2ece8dc7a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "262fe3d8-e99f-442c-87dd-511a97e188a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/1d0ee5cb-6c9a-4ae2-918e-7506c306aa96")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 39 "/Connectors/LED")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "21bbd3da-fc06-4a93-a407-f4fad3bb59f4")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -21052,7 +21551,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ecd7eff5-4ab9-4149-9c9d-42b00f909daf")
-		(at 87.25 100.95 90)
+		(at 87.25 101.1 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C42"
@@ -21868,6 +22367,78 @@
 			)
 		)
 	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "f85f6403-88cc-478e-9efc-8070502ea9b8")
+		(at 98.2 87)
+		(property "Reference" "P20"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ef66d46-2ba8-4f2f-ae32-cb017a4921d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a7cf1e2-4cd6-42e0-9544-ea1a6321483d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e16d0426-73f9-4756-85be-06cd92942436")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23b5ab03-698b-408e-8742-77cb62963c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/8735c753-1a5d-41f8-9eb4-f9a0f97628fd")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 42 "/Spk.-")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "3ba819bd-0a68-47db-828f-f640789437cd")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Kolibri custom:WS2812B_1615"
 		(layer "F.Cu")
 		(uuid "f909799c-97e7-467e-8bd9-c980121b8cb0")
@@ -22441,6 +23012,78 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "Kolibri custom:Solder_Pad_rounded"
+		(layer "F.Cu")
+		(uuid "fe5db68a-c554-492d-bbff-b2e4118145a0")
+		(at 105.4 88.8)
+		(property "Reference" "P11"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd007a22-1b98-44fe-8731-7a727e3225ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "930e22d2-2e4f-4c85-9aef-f6ee0f36defc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb03d2b6-1800-4423-bcf9-ff3f0b22132b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5cda79e-1bd8-4654-b3a2-9dafd509ac96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/345bfd19-80c9-4b37-87d1-242b0c0517e8")
+		(sheetname "/Connectors/")
+		(sheetfile "connectors.kicad_sch")
+		(attr smd)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 79 "/U2.RX")
+			(pintype "unspecified")
+			(thermal_bridge_angle 45)
+			(uuid "8087f20c-e199-4b5b-b875-26a22a87f37a")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -23200,82 +23843,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Kolibri custom:Solder_Pad_rounded"
-		(layer "B.Cu")
-		(uuid "02f267d8-7740-4436-8816-a523c4978ff6")
-		(at 123.4 96.2 180)
-		(property "Reference" "P16"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "66d0b8c4-3e7c-4899-8bc8-efccb02f91ac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a786d367-a616-4b10-b402-43e008f8d423")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4e7067c1-9d14-42e5-850a-ae973dcedd8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f265f884-0eed-4234-bded-c1ba8b8241df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/f65324f8-fdd4-463e-bd7a-cf8da7460941")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 85 "/U0.TX")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "84f2a707-06d2-4632-a62f-4548c15a894c")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "07e97945-27b0-41a6-8f7b-b697bc3f4d5e")
@@ -23558,96 +24125,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Kolibri custom:Solder_Pad_rounded_dual"
-		(layer "B.Cu")
-		(uuid "08e21e86-cac6-4e0d-8746-bc26637405b6")
-		(at 121.2 91.8 180)
-		(property "Reference" "P21"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "dcdbbea0-d62a-490c-8dee-67c8c8a2c290")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f5bd1b9d-10e5-40c1-8bcf-625a515d8b71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a796ee60-0a8d-415c-a917-bde3395c5e89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9f2340a8-0fae-4345-ba15-b83cd3e3e894")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/b4121760-bd7f-41fc-9d35-13e88fca229f")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 41 "/Spk.+")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "0ff0ea26-fe5d-4a77-81ea-31095d780554")
-		)
-		(pad "2" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 41 "/Spk.+")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "d7274bae-b5b0-4027-9ee4-fdc69c1e96bc")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Kolibri custom:Solder_Pad_octa_dual"
 		(layer "B.Cu")
 		(uuid "0d5976f5-1e17-405e-bda2-e590a4f803ff")
-		(at 87 109 180)
+		(at 109 87 180)
 		(property "Reference" "P28"
 			(at 0 0.5 0)
 			(unlocked yes)
@@ -24145,168 +24626,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Kolibri custom:Solder_Pad_rounded_dual"
-		(layer "B.Cu")
-		(uuid "103656ed-6ca2-4211-82a1-719ade242e15")
-		(at 121.2 89.6 180)
-		(property "Reference" "P20"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "2c03fcfb-24b2-4406-87b5-98608edc1d9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d9641221-37ac-48d2-a032-c54b8628c2fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e039aeed-57e1-4f87-8ed3-8708e92b3c3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6be148c4-3fcb-48c1-89b9-eead28ee6959")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/08592311-409c-4536-ae8e-782ce670718e")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 39 "/Connectors/LED")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "3bfad780-38dd-4524-b1db-c3be4765c1ff")
-		)
-		(pad "2" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 39 "/Connectors/LED")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "84335d0e-6b0e-4340-a00d-84746e6a07ae")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Kolibri custom:Solder_Pad_rounded"
-		(layer "B.Cu")
-		(uuid "10539b0e-a813-49d2-9bc2-ea4599ac8d7c")
-		(at 126 90.4 180)
-		(property "Reference" "P10"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "5d502b1f-66a4-494f-ab41-f2915c6e1008")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c9d50b2-000a-4a1b-8a96-cc89f5e153a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a8301ba2-481a-47d7-af68-0f2e5e63e0bf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea328da1-5d57-40b2-988d-5040d8a34221")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/fc9a95b3-4975-476d-ba76-aa37f7af476c")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 78 "/U2.TX")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "f8274a32-5e47-4dae-8f63-af14fb8a56ba")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "SamacSys_Parts:SON50P300X300X80-13N"
 		(layer "B.Cu")
@@ -28850,96 +29169,6 @@
 			)
 		)
 	)
-	(footprint "Kolibri custom:Solder_Pad_octa_dual"
-		(layer "B.Cu")
-		(uuid "53d379af-aefa-4e1f-83a6-84d69c3a442d")
-		(at 119 94 180)
-		(property "Reference" "P29"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "387d1564-5650-46d0-a5e7-14575d585f58")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "25bfe684-ca78-419e-984f-0085f3039110")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f25f0223-1938-4d00-ae76-9e68c7f55a86")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "54d28862-4c4a-4f84-803a-7838ba188cbe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/e39da77a-8e2b-4a09-a04e-1fe327478481")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0)
-			(chamfer_ratio 0.3)
-			(chamfer top_left top_right bottom_left bottom_right)
-			(net 8 "+5V")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "970dab59-680a-4276-8420-e58b43bc6f5b")
-		)
-		(pad "2" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0)
-			(chamfer_ratio 0.3)
-			(chamfer top_left top_right bottom_left bottom_right)
-			(net 8 "+5V")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "76f104fb-d19c-42d4-ae95-bbc134d6c83a")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "5acf6625-a75c-4303-a8bb-0c6a8e1aa8ba")
@@ -30463,7 +30692,7 @@
 	(footprint "Kolibri custom:Solder_Pad_rect_dual"
 		(layer "B.Cu")
 		(uuid "64d80dce-263f-4254-a1fe-c34368783dde")
-		(at 121.2 96.2 180)
+		(at 90.7 87 180)
 		(property "Reference" "P23"
 			(at 0 0.5 0)
 			(unlocked yes)
@@ -32124,7 +32353,7 @@
 			(uuid "f57f7c9a-cb92-41d7-9611-f81aeed22c2a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at -0.2 0 90)
 			(layer "B.Fab")
 			(uuid "ce4cfa77-864d-44be-a8ed-97536e3b27e5")
 			(effects
@@ -34176,96 +34405,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Kolibri custom:Solder_Pad_octa_dual"
-		(layer "B.Cu")
-		(uuid "a0c1fbc0-8990-4ec5-b5c7-bbe1fd1b6601")
-		(at 119 96.2 180)
-		(property "Reference" "P30"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "b23386a5-8866-40d8-b100-d9c520885a2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "99f5a767-5696-414b-81c9-03cad2bf2a22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c09dbbe0-ed42-4130-b9c9-c30075760932")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c56b46e1-9cf8-4f90-bdc3-72f52883cb71")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/a2a0f2b0-0643-499d-af74-81301963e6b2")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0)
-			(chamfer_ratio 0.3)
-			(chamfer top_left top_right bottom_left bottom_right)
-			(net 8 "+5V")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "09331cbc-1caf-4786-a6b2-6f3372f33716")
-		)
-		(pad "2" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0)
-			(chamfer_ratio 0.3)
-			(chamfer top_left top_right bottom_left bottom_right)
-			(net 8 "+5V")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "e3db86c7-931f-41df-84bf-7427f8c08781")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
@@ -38048,82 +38187,6 @@
 			)
 		)
 	)
-	(footprint "Kolibri custom:Solder_Pad_rounded"
-		(layer "B.Cu")
-		(uuid "db13ec74-9aed-423a-af69-15569001ad87")
-		(at 123.4 98.4 180)
-		(property "Reference" "P17"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "4f4859ad-38d1-4c7e-a615-d3dd51308a79")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "62bc4b19-26c1-401c-85ed-f280b823f5b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "30be59aa-1bfc-4eed-bd79-f00958ef7c07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "89881915-148b-4376-b428-33d58eb22a0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/720150f0-093d-4119-b3ac-c7cad0e9b5bb")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 86 "/U0.RX")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "6f17ae16-299d-4047-a8bf-6150e1c3c9de")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "dbbda1d2-1fcd-44b6-ac5e-57bfb97e2d70")
@@ -39607,92 +39670,6 @@
 			)
 		)
 	)
-	(footprint "Kolibri custom:Solder_Pad_rounded_dual"
-		(layer "B.Cu")
-		(uuid "f103a6f7-1eb3-4a95-aa37-85dd1c606cce")
-		(at 121.2 94 180)
-		(property "Reference" "P22"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "625d116f-1785-41d4-93ab-890c5fce3589")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3cdb8f1a-7ad9-467a-b3bb-48c883242d3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fac62c31-327b-480b-906e-209000381ca0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bbcf44f4-5dc0-416f-836e-85acfa6e6c78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/caa5d8ad-3739-4fad-88b2-90f7f3731146")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 42 "/Spk.-")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "cf159e37-626d-4bfa-a135-48503c110147")
-		)
-		(pad "2" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 42 "/Spk.-")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "882306b8-e44d-4a04-b395-f1dc03dc1b53")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Kolibri custom:Solder_Pad_rounded"
 		(layer "B.Cu")
 		(uuid "fa7bf7c9-bd13-4067-81cb-062d8bb100ba")
@@ -40530,82 +40507,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Kolibri custom:Solder_Pad_rounded"
-		(layer "B.Cu")
-		(uuid "fe5db68a-c554-492d-bbff-b2e4118145a0")
-		(at 124 93 180)
-		(property "Reference" "P11"
-			(at 0 0.5 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "bd007a22-1b98-44fe-8731-7a727e3225ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "930e22d2-2e4f-4c85-9aef-f6ee0f36defc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "eb03d2b6-1800-4423-bcf9-ff3f0b22132b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c5cda79e-1bd8-4654-b3a2-9dafd509ac96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c061bb86-7a8e-4300-a3f9-744e498f6d03/345bfd19-80c9-4b37-87d1-242b0c0517e8")
-		(sheetname "/Connectors/")
-		(sheetfile "connectors.kicad_sch")
-		(attr smd)
-		(pad "1" smd roundrect
-			(at 0 0 180)
-			(size 1.2 1.2)
-			(layers "B.Cu" "B.Mask")
-			(roundrect_rratio 0.25)
-			(net 79 "/U2.RX")
-			(pintype "unspecified")
-			(thermal_bridge_angle 45)
-			(uuid "8087f20c-e199-4b5b-b875-26a22a87f37a")
-		)
-		(embedded_fonts no)
 	)
 	(gr_circle
 		(center 110 90)

@@ -1102,105 +1102,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Kolibri custom:Solder_Pad_rounded_dual"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Kolibri custom:Solder_Pad_rounded_dual"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Solder_Pad_rounded_dual_1_1"
-				(rectangle
-					(start 0.254 1.016)
-					(end 1.27 -1.016)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 0 0)
-					(length 2.54)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+10V"
 			(power)
 			(pin_numbers
@@ -1910,12 +1811,6 @@
 		(uuid "f9a88c65-2d70-4286-86d5-0f41beeeeb9c")
 	)
 	(junction
-		(at 203.2 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "167d5d1c-4e97-4095-b00b-f838f54c65ad")
-	)
-	(junction
 		(at 203.2 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,6 +1839,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56769cc7-217f-406b-ad7a-2fd080179963")
+	)
+	(junction
+		(at 203.2 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75100619-e53f-4ef5-9823-a51d248c9191")
 	)
 	(junction
 		(at 66.04 162.56)
@@ -2160,16 +2061,6 @@
 			(type default)
 		)
 		(uuid "0498f365-675e-4b95-99f6-1804078d56c3")
-	)
-	(wire
-		(pts
-			(xy 203.2 40.64) (xy 203.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ce0b2c-6413-4d79-8316-8701ddf02eb1")
 	)
 	(wire
 		(pts
@@ -2740,6 +2631,16 @@
 			(type default)
 		)
 		(uuid "d28aa0ab-60f8-470f-8934-39ffa8b96f97")
+	)
+	(wire
+		(pts
+			(xy 203.2 40.64) (xy 203.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4818cd8-7b05-47d0-8ba5-e54ae69d0785")
 	)
 	(bus
 		(pts
@@ -3388,76 +3289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_rounded_dual")
-		(at 163.83 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08592311-409c-4536-ae8e-782ce670718e")
-		(property "Reference" "P20"
-			(at 166.37 108.5849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 166.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_rounded_dual"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61f7258f-a62f-4abf-9502-e63ebb5b22b4")
-		)
-		(pin "2"
-			(uuid "f55575ea-5150-449e-9eb5-ea27b3a11b37")
-		)
-		(instances
-			(project "Kolibri v0.5"
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
-					(reference "P20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 224.79 45.72 0)
 		(unit 1)
@@ -3789,6 +3620,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Kolibri custom:Solder_Pad_rounded")
+		(at 163.83 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0ee5cb-6c9a-4ae2-918e-7506c306aa96")
+		(property "Reference" "P21"
+			(at 166.37 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kolibri custom:Solder_Pad_rounded"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16cc72ed-abcc-45d8-96ff-01da1f931c75")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
+					(reference "P21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin")
 		(at 76.2 45.72 0)
 		(unit 1)
@@ -4073,76 +3971,6 @@
 			(project "Kolibri v0.5"
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
 					(reference "P11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_rect_dual")
-		(at 205.74 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36847360-5f14-4f20-9653-4c9cc1cb75b8")
-		(property "Reference" "P25"
-			(at 208.28 40.0049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 208.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_rect_dual"
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63098625-459d-4a44-a8fe-05e2b796db63")
-		)
-		(pin "2"
-			(uuid "5c22f489-7bdd-4818-871f-291db16d376d")
-		)
-		(instances
-			(project ""
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
-					(reference "P25")
 					(unit 1)
 				)
 			)
@@ -4571,6 +4399,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Kolibri custom:Solder_Pad_rect")
+		(at 205.74 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62dc0107-344a-4ec3-a069-8dd3a5f114ea")
+		(property "Reference" "P22"
+			(at 208.28 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 208.28 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kolibri custom:Solder_Pad_rect"
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b0d0a4-bff6-42e1-a492-5286c5b32270")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
+					(reference "P22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Kolibri custom:Solder_Pad_rounded")
 		(at 163.83 59.69 0)
 		(unit 1)
@@ -4838,6 +4733,73 @@
 			(project "Kolibri v0.5"
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
 					(reference "P33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kolibri custom:Solder_Pad_rounded")
+		(at 163.83 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8735c753-1a5d-41f8-9eb4-f9a0f97628fd")
+		(property "Reference" "P20"
+			(at 166.37 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kolibri custom:Solder_Pad_rounded"
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16cc72ed-abcc-45d8-96ff-01da1f931c75")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
+					(reference "P20")
 					(unit 1)
 				)
 			)
@@ -5112,76 +5074,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_octa_dual")
-		(at 247.65 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2a0f2b0-0643-499d-af74-81301963e6b2")
-		(property "Reference" "P30"
-			(at 250.19 40.0049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 250.19 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_octa_dual"
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f422970b-5428-4fb9-a37b-64d3dcc7424b")
-		)
-		(pin "1"
-			(uuid "d7c1a58f-f5a4-4c34-89f6-4d4f343e0fbf")
-		)
-		(instances
-			(project ""
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
-					(reference "P30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 203.2 50.8 0)
 		(unit 1)
@@ -5375,76 +5267,6 @@
 			(project ""
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_rounded_dual")
-		(at 163.83 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4121760-bd7f-41fc-9d35-13e88fca229f")
-		(property "Reference" "P21"
-			(at 166.37 120.0149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 166.37 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_rounded_dual"
-			(at 163.83 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae66d08b-fb27-4326-bb59-bafd825b1f42")
-		)
-		(pin "2"
-			(uuid "a43fbe16-c0de-4402-b1d8-cb7f394d18b2")
-		)
-		(instances
-			(project "Kolibri v0.5"
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
-					(reference "P21")
 					(unit 1)
 				)
 			)
@@ -5739,17 +5561,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_rounded_dual")
-		(at 163.83 124.46 0)
+		(lib_id "Kolibri custom:Solder_Pad_octa")
+		(at 247.65 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "caa5d8ad-3739-4fad-88b2-90f7f3731146")
-		(property "Reference" "P22"
-			(at 166.37 123.8249 0)
+		(uuid "c55b1bf4-0161-462e-b78f-9f94aecd5563")
+		(property "Reference" "P25"
+			(at 250.19 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5580,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 125.73 0)
+			(at 250.19 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,8 +5588,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_rounded_dual"
-			(at 163.83 124.46 0)
+		(property "Footprint" "Kolibri custom:Solder_Pad_octa"
+			(at 247.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5776,7 +5598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 124.46 0)
+			(at 247.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5785,7 +5607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 124.46 0)
+			(at 247.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,15 +5616,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "08b00a72-9def-4013-bd37-a748f73b13a2")
-		)
-		(pin "2"
-			(uuid "93bacc1a-57a5-4eae-ae49-22a74f16ab9b")
+			(uuid "d53dc625-8af0-42c9-a2a1-53e84b0ca897")
 		)
 		(instances
-			(project "Kolibri v0.5"
+			(project ""
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
-					(reference "P22")
+					(reference "P25")
 					(unit 1)
 				)
 			)
@@ -6075,7 +5894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Kolibri custom:Solder_Pad_octa_dual")
+		(lib_id "Kolibri custom:Solder_Pad_octa")
 		(at 247.65 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6083,9 +5902,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e39da77a-8e2b-4a09-a04e-1fe327478481")
+		(uuid "eccaee6e-35c0-43d4-ac3d-ea29e9839e7b")
 		(property "Reference" "P29"
-			(at 250.19 36.1949 0)
+			(at 250.19 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +5913,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 250.19 38.1 0)
+			(at 250.19 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +5921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kolibri custom:Solder_Pad_octa_dual"
+		(property "Footprint" "Kolibri custom:Solder_Pad_octa"
 			(at 247.65 36.83 0)
 			(effects
 				(font
@@ -6129,11 +5948,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f422970b-5428-4fb9-a37b-64d3dcc7424c")
-		)
 		(pin "1"
-			(uuid "d7c1a58f-f5a4-4c34-89f6-4d4f343e0fc0")
+			(uuid "3e1095df-e3be-43eb-81e4-0b3e4f505723")
 		)
 		(instances
 			(project ""
@@ -6607,6 +6423,73 @@
 			(project "Kolibri v0.6"
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
 					(reference "P35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kolibri custom:Solder_Pad_rounded")
+		(at 163.83 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7e587c-250c-475c-8e45-2eaef376774a")
+		(property "Reference" "P19"
+			(at 166.37 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 166.37 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kolibri custom:Solder_Pad_rounded"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16cc72ed-abcc-45d8-96ff-01da1f931c75")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/c061bb86-7a8e-4300-a3f9-744e498f6d03"
+					(reference "P19")
 					(unit 1)
 				)
 			)
