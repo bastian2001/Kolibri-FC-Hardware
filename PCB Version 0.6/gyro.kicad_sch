@@ -147,130 +147,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Kolibri custom:ICM-42688-P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -971,7 +847,7 @@
 		(uuid "530e559f-a3a4-42a3-9551-3484bcd2577b")
 	)
 	(bus_entry
-		(at 50.8 40.64)
+		(at 58.42 40.64)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -980,7 +856,7 @@
 		(uuid "394b66da-93e7-4987-9f3a-3eee36ff9254")
 	)
 	(bus_entry
-		(at 50.8 50.8)
+		(at 58.42 50.8)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -989,7 +865,7 @@
 		(uuid "4971fdae-f2d4-44b8-b0ca-f2386976567b")
 	)
 	(bus_entry
-		(at 50.8 45.72)
+		(at 58.42 45.72)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -999,7 +875,7 @@
 	)
 	(bus
 		(pts
-			(xy 21.59 39.37) (xy 50.8 39.37)
+			(xy 29.21 39.37) (xy 58.42 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1019,17 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 85.09 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c21aa66-b88d-465e-845c-9541fd000640")
-	)
-	(wire
-		(pts
-			(xy 53.34 48.26) (xy 68.58 48.26)
+			(xy 60.96 48.26) (xy 82.55 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +905,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 39.37) (xy 50.8 40.64)
+			(xy 58.42 39.37) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +935,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 40.64) (xy 50.8 45.72)
+			(xy 58.42 40.64) (xy 58.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1109,16 +975,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 82.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6484c9ba-b720-4ca4-905f-5394ac1507a8")
-	)
-	(wire
-		(pts
 			(xy 128.27 66.04) (xy 134.62 66.04)
 		)
 		(stroke
@@ -1126,16 +982,6 @@
 			(type default)
 		)
 		(uuid "6b74109c-7669-4da8-97f5-25d5ddb09343")
-	)
-	(wire
-		(pts
-			(xy 76.2 43.18) (xy 85.09 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78752d2d-cea6-4f3a-b522-3501e1c14d5b")
 	)
 	(wire
 		(pts
@@ -1149,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 55.88) (xy 85.09 55.88)
+			(xy 68.58 55.88) (xy 85.09 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 53.34) (xy 68.58 53.34)
+			(xy 60.96 53.34) (xy 85.09 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1015,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 45.72) (xy 50.8 50.8)
+			(xy 58.42 45.72) (xy 58.42 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 43.18) (xy 68.58 43.18)
+			(xy 60.96 43.18) (xy 85.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1094,7 @@
 		(uuid "f2d84cfe-ad8c-499a-83bf-c8f65ca643bc")
 	)
 	(label "SPI0.MISO"
-		(at 53.34 43.18 0)
+		(at 60.96 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1258,7 +1104,7 @@
 		(uuid "385be723-7328-4260-9246-bc54da4d3250")
 	)
 	(label "SPI0{MISO SCLK MOSI}"
-		(at 26.67 39.37 0)
+		(at 34.29 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1114,7 @@
 		(uuid "6a0746fc-2a40-45e0-b209-7d9905f256d9")
 	)
 	(label "SPI0.MOSI"
-		(at 53.34 48.26 0)
+		(at 60.96 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,7 +1124,7 @@
 		(uuid "8c2f0044-a648-4b99-9d26-ea10d9b8b5a7")
 	)
 	(label "SPI0.SCLK"
-		(at 53.34 53.34 0)
+		(at 60.96 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1311,7 +1157,7 @@
 	)
 	(hierarchical_label "SPI0"
 		(shape bidirectional)
-		(at 21.59 39.37 180)
+		(at 29.21 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1322,7 +1168,7 @@
 	)
 	(hierarchical_label "SS"
 		(shape input)
-		(at 60.96 55.88 180)
+		(at 68.58 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1629,140 +1475,6 @@
 			(project ""
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/b8512ca5-36ed-4aec-9643-fc888220e565"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43404be1-21b7-4914-a2bd-07e643c5998f")
-		(property "Reference" "R38"
-			(at 70.612 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 74.676 40.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 72.39 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94d12566-545a-4498-a2af-24c89ef28b7a")
-		)
-		(pin "2"
-			(uuid "cc72fae3-6618-4e5a-a007-3bfdd7c18dc4")
-		)
-		(instances
-			(project ""
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/b8512ca5-36ed-4aec-9643-fc888220e565"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a34d24f-d078-4a58-b204-bcd4dbdfa2f7")
-		(property "Reference" "R39"
-			(at 70.612 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 74.676 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 72.39 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b21484e4-ff76-4141-b5c1-338483b97bd7")
-		)
-		(pin "2"
-			(uuid "a87c13a9-b611-4b85-a537-0eaae4a85396")
-		)
-		(instances
-			(project "Kolibri v0.6"
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/b8512ca5-36ed-4aec-9643-fc888220e565"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2101,73 +1813,6 @@
 			(project ""
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/b8512ca5-36ed-4aec-9643-fc888220e565"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 72.39 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db78f2c8-9655-48aa-aaad-63dc0924379b")
-		(property "Reference" "R40"
-			(at 70.612 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 74.676 51.054 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 72.39 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6063588-4ef7-49d4-8aa4-09ca3b33691a")
-		)
-		(pin "2"
-			(uuid "7ef8e9b6-0370-4a84-be66-fd97bf7f1a5f")
-		)
-		(instances
-			(project "Kolibri v0.6"
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/b8512ca5-36ed-4aec-9643-fc888220e565"
-					(reference "R40")
 					(unit 1)
 				)
 			)
