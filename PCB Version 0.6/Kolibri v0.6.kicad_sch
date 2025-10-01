@@ -89,6 +89,16 @@
 	)
 	(bus
 		(pts
+			(xy 105.41 50.8) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed460b1-b72d-4e98-a22d-048d738fa299")
+	)
+	(bus
+		(pts
 			(xy 130.81 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -346,6 +356,16 @@
 			(type default)
 		)
 		(uuid "fef6a1a5-dc78-46f9-930a-4f0065f68f0e")
+	)
+	(label "PWM{[1..2]}"
+		(at 109.22 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0289f4a0-f43f-431a-9336-ab4e9fb6ccfd")
 	)
 	(label "SPI_Flash{SCLK IO0 IO1}"
 		(at 160.02 100.33 0)
@@ -1379,8 +1399,8 @@
 		)
 	)
 	(sheet
-		(at 130.81 50.8)
-		(size 26.67 5.08)
+		(at 130.81 48.26)
+		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1394,7 +1414,7 @@
 		)
 		(uuid "f86b6c62-cfc0-4383-b218-cc390d004fb8")
 		(property "Sheetname" "ELRS"
-			(at 131.064 50.8 0)
+			(at 131.064 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1423,7 @@
 			)
 		)
 		(property "Sheetfile" "ELRS.kicad_sch"
-			(at 142.24 49.276 0)
+			(at 142.24 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,6 +1434,16 @@
 		(pin "UART0" bidirectional
 			(at 130.81 53.34 180)
 			(uuid "26c4ff06-f136-4f2d-b5db-070d4c64eb97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM" output
+			(at 130.81 50.8 180)
+			(uuid "b0a41a98-6d97-4a86-9127-87a4a67274ac")
 			(effects
 				(font
 					(size 1.27 1.27)

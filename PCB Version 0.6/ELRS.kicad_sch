@@ -3429,6 +3429,24 @@
 		)
 		(uuid "730da299-c84d-4d1d-99cc-772048d8a2e6")
 	)
+	(bus_entry
+		(at 101.6 121.92)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4abca2-e28a-4939-ba3f-94c86b520c7d")
+	)
+	(bus_entry
+		(at 101.6 119.38)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7feacee-f010-48f6-b31f-69476ccdfc3d")
+	)
 	(wire
 		(pts
 			(xy 152.4 106.68) (xy 152.4 71.12)
@@ -3578,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "22e73aad-c4fb-4d83-ad7d-ae49665a8897")
+	)
+	(bus
+		(pts
+			(xy 101.6 121.92) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24915f00-b17f-4f80-aad8-407471376c46")
 	)
 	(wire
 		(pts
@@ -3768,6 +3796,16 @@
 			(type default)
 		)
 		(uuid "5c2867b7-c197-4b0b-a8dc-7ce8710a5275")
+	)
+	(bus
+		(pts
+			(xy 74.93 119.38) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c797da2-0048-452e-9933-0179699855e3")
 	)
 	(wire
 		(pts
@@ -5293,15 +5331,15 @@
 		)
 		(uuid "203ba9cf-878f-4db8-ad8a-aba50878cdce")
 	)
-	(label "GPIO18"
-		(at 104.14 124.46 0)
+	(label "PWM.1"
+		(at 104.14 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "31f902d4-1380-42a9-8e07-08661f286c31")
+		(uuid "235d7f20-ee34-4cc8-a369-db65b86d992c")
 	)
 	(label "RADIO_RST"
 		(at 104.14 111.76 0)
@@ -5323,16 +5361,6 @@
 		)
 		(uuid "42774476-c9a6-4cbc-8d64-e5940365795a")
 	)
-	(label "GPIO10"
-		(at 104.14 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48361930-6364-4913-99be-c5728e8c6752")
-	)
 	(label "U0{TX RX}"
 		(at 71.12 137.16 180)
 		(effects
@@ -5352,6 +5380,16 @@
 			(justify right bottom)
 		)
 		(uuid "60cf8398-0728-4b04-881e-7dcc12513fd2")
+	)
+	(label "PWM.2"
+		(at 104.14 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69bc6a50-69f2-482c-8def-c3a53f065961")
 	)
 	(label "RADIO_BUSY"
 		(at 104.14 114.3 0)
@@ -5483,6 +5521,16 @@
 		)
 		(uuid "e110b2d1-d01b-4b61-8717-4d9c7f8b40d8")
 	)
+	(label "PWM{[1..2]}"
+		(at 81.28 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e89d4fda-cbbf-4a67-9d9a-2cedd65a21be")
+	)
 	(label "ELRS_LED_RGB"
 		(at 60.96 195.58 0)
 		(effects
@@ -5522,6 +5570,17 @@
 			(justify right bottom)
 		)
 		(uuid "fb74cb88-fbe8-48c4-9b50-b9dc60b2d514")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 74.93 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5783c02b-8f74-45e9-8c5a-ee159ce8d487")
 	)
 	(hierarchical_label "UART0"
 		(shape bidirectional)
