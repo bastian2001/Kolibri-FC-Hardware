@@ -3274,12 +3274,6 @@
 		(uuid "894ca4ff-179e-4b33-ab3c-7892104c7ed1")
 	)
 	(junction
-		(at 88.9 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d7284b1-5204-46b3-8272-853afdf0001b")
-	)
-	(junction
 		(at 41.91 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3338,6 +3332,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b97e18eb-708d-4ac3-afcf-3fca7c2d6523")
+	)
+	(junction
+		(at 88.9 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c534974e-9e90-400f-aa40-2d5d52d673b5")
 	)
 	(junction
 		(at 184.15 196.85)
@@ -5667,72 +5667,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03fc6c03-ccef-46d4-a8d0-0dfc661d77ef")
-		(property "Reference" "#PWR39"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_ELRS"
-			(at 83.566 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "138db620-699b-427e-b235-986941fa1513")
-		)
-		(instances
-			(project "Kolibri v0.6"
-				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/f86b6c62-cfc0-4383-b218-cc390d004fb8"
-					(reference "#PWR39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 215.9 113.03 0)
 		(unit 1)
@@ -5830,7 +5764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 102.87 0)
 			(effects
 				(font
@@ -6236,7 +6170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -6438,7 +6372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.5652 100.33 0)
 			(effects
 				(font
@@ -6988,7 +6922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.4952 78.74 0)
 			(effects
 				(font
@@ -7058,7 +6992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 316.5348 193.04 0)
 			(effects
 				(font
@@ -7258,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 279.4 198.4248 0)
 			(effects
 				(font
@@ -7670,7 +7604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.5652 199.39 0)
 			(effects
 				(font
@@ -8003,7 +7937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 143.8148 0)
 			(effects
 				(font
@@ -8040,6 +7974,72 @@
 			(project "Kolibri v0.6"
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/f86b6c62-cfc0-4383-b218-cc390d004fb8"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 88.9 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96210170-338d-4941-8618-88da25adaa8f")
+		(property "Reference" "#PWR039"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da31cd53-68dd-4c8c-8315-936750b284af")
+		)
+		(instances
+			(project ""
+				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a/f86b6c62-cfc0-4383-b218-cc390d004fb8"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8333,7 +8333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.7 160.9852 0)
 			(effects
 				(font
@@ -8403,7 +8403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 100.33 0)
 			(effects
 				(font
@@ -8799,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.88 151.4348 0)
 			(effects
 				(font
@@ -9297,7 +9297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 341.3252 175.26 0)
 			(effects
 				(font
@@ -9765,7 +9765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 100.33 0)
 			(effects
 				(font
@@ -10117,7 +10117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 304.4952 205.74 0)
 			(effects
 				(font
