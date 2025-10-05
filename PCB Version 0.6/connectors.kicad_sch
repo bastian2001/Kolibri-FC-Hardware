@@ -2776,7 +2776,7 @@
 		)
 		(uuid "0d958c0f-6000-4a08-aa7e-9de72ea9a96d")
 	)
-	(label "PWM.1"
+	(label "PWM.2"
 		(at 148.59 27.94 0)
 		(effects
 			(font
@@ -3066,7 +3066,7 @@
 		)
 		(uuid "e4cc0e9b-7ef1-41d6-9c69-09b184e40199")
 	)
-	(label "PWM.2"
+	(label "PWM.1"
 		(at 148.59 30.48 0)
 		(effects
 			(font

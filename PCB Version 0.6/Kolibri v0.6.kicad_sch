@@ -1286,6 +1286,16 @@
 				(justify left)
 			)
 		)
+		(pin "PWM" input
+			(at 105.41 50.8 0)
+			(uuid "9dd5066d-f14a-4826-a096-70666b58efe8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Kolibri v0.6"
 				(path "/1651f454-30c0-48ea-9fcf-6c96a661786a"

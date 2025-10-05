@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "track_dangling|114400000|109205916|e174617f-e35a-4891-9abb-84eb38b08aad|00000000-0000-0000-0000-000000000000",
+          "It IS an antenna"
+        ]
+      ],
       "meta": {
         "version": 2
       },
