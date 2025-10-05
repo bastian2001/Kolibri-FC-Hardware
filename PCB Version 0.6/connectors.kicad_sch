@@ -3046,7 +3046,7 @@
 		)
 		(uuid "dede2d43-512b-499e-aa08-0173cb4aa50f")
 	)
-	(label "I2C0.SDA"
+	(label "I2C0.SCL"
 		(at 58.42 105.41 0)
 		(effects
 			(font
@@ -3076,7 +3076,7 @@
 		)
 		(uuid "e5ae5a2a-c0b4-4230-8844-f4b373e00d63")
 	)
-	(label "I2C0.SCL"
+	(label "I2C0.SDA"
 		(at 58.42 107.95 0)
 		(effects
 			(font
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a1f2f55-d141-4210-a44a-c5310f4142ea")
+			(uuid "5a1f2f55-d141-4210-a44a-c5310f4142eb")
 		)
 		(instances
 			(project ""
@@ -5212,7 +5212,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a1f2f55-d141-4210-a44a-c5310f4142ea")
+			(uuid "5a1f2f55-d141-4210-a44a-c5310f4142ec")
 		)
 		(instances
 			(project ""
@@ -6495,7 +6495,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "80b5333b-d599-4bf4-9896-783f8276b26c")
+			(uuid "80b5333b-d599-4bf4-9896-783f8276b26d")
 		)
 		(instances
 			(project ""
