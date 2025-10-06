@@ -5373,6 +5373,16 @@
 		)
 		(uuid "a404bd21-063c-4dd7-a5c7-21cb039bb871")
 	)
+	(label "WIFI_ESP"
+		(at 176.53 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa3fb1aa-aa56-4f79-a210-1c7795356471")
+	)
 	(label "RADIO_RST"
 		(at 266.7 165.1 0)
 		(effects
@@ -5403,6 +5413,16 @@
 		)
 		(uuid "bd6f2566-165b-4387-b8d1-9bc021caafae")
 	)
+	(label "ELRS_ANT_SX"
+		(at 300.99 138.43 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e0e57d-30cd-4b07-8765-37c258273fee")
+	)
 	(label "RADIO_NSS"
 		(at 308.61 128.27 270)
 		(effects
@@ -5412,6 +5432,16 @@
 			(justify right bottom)
 		)
 		(uuid "cc5b3e07-ae09-44db-acff-39e6d9c39acb")
+	)
+	(label "ELRS_ANT"
+		(at 300.99 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccfc8864-56a4-4f7b-afbf-bbf9f3d1afbb")
 	)
 	(label "RADIO_NSS"
 		(at 187.96 129.54 180)

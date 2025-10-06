@@ -504,6 +504,16 @@
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.118,
+        "line_style": 0,
+        "name": "50Ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -511,7 +521,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "50Ohm",
+        "pattern": "/ELRS/WIFI_ESP"
+      },
+      {
+        "netclass": "50Ohm",
+        "pattern": "/ELRS/WIFI_ANTENNA"
+      },
+      {
+        "netclass": "50Ohm",
+        "pattern": "/ELRS/ELRS_ANT_SX"
+      },
+      {
+        "netclass": "50Ohm",
+        "pattern": "/ELRS/ELRS_ANT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
