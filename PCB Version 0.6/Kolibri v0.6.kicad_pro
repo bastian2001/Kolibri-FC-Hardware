@@ -58,7 +58,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|103750000|89100000|5d222bc9-9a67-485b-be1a-84ecd9dafb3b|00000000-0000-0000-0000-000000000000",
+          "added 3d model"
+        ],
+        [
+          "lib_footprint_mismatch|104050000|97500000|1e526b24-ead5-4551-a71b-d5a3a6b795b9|00000000-0000-0000-0000-000000000000",
+          "reduced courtyard, removed 2 pins"
+        ],
+        [
+          "lib_footprint_mismatch|107657500|95300000|af5747f4-658f-41b3-8f09-17d6a5ad69c4|00000000-0000-0000-0000-000000000000",
+          "added 3d body"
+        ],
+        [
+          "lib_footprint_mismatch|108332500|100007500|81dba462-76f0-458d-ae9d-a3343d06c2f5|00000000-0000-0000-0000-000000000000",
+          "soldermask expansion as per datasheet"
+        ],
+        [
+          "lib_footprint_mismatch|110900000|97250000|2a5a2fad-51ec-4628-9ef5-17e6dbb3f069|00000000-0000-0000-0000-000000000000",
+          "reduced courtyard"
+        ],
+        [
+          "lib_footprint_mismatch|95682500|88000000|5887d24d-27d6-4bf4-88e2-ff7dcfb1625e|00000000-0000-0000-0000-000000000000",
+          "reduced courtyard"
+        ],
+        [
+          "lib_footprint_mismatch|97417500|108917500|8d6ddf2e-3c5e-42da-8ccb-190860abd8a5|00000000-0000-0000-0000-000000000000",
+          "added 3d body"
+        ],
+        [
+          "track_dangling|112356710|111293291|8f41eca2-00b2-4819-8ca3-731a63119c4a|00000000-0000-0000-0000-000000000000",
+          "it's an antenna"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -507,12 +540,12 @@
       },
       {
         "bus_width": 24,
-        "clearance": 0.118,
         "line_style": 0,
         "name": "50Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.118,
         "wire_width": 12
       }
     ],
