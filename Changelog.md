@@ -93,3 +93,19 @@
         -   2354 instead of 2350 (no separate flash required)
         -   replace USB on SH plug with solder pads [optionally under the USB port]
         -   (pixel OSD instead of AT7456E)
+
+### V0.6
+
+-   Changes compared to V0.5
+    -   ELRS
+        -   from TD with PA/LNA to single without PA/LNA
+        -   from ESP32 to ESP8685 (C3)
+        -   No more separate LDO
+    -   Gyro from BMI270 to ICM-42688-P with external clock
+    -   Blackbox from SD slot to 2GBit flash chip
+    -   Separate gyro LDO (1.8V – let's experiment!)
+    -   USB
+        -   remove JST header in favor of solder pads
+        -   remove TVS
+    -   shrink Crystal footprints
+    -   replace current sensor pin with 10V reg switch
