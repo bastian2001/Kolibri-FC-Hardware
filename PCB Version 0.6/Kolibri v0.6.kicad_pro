@@ -88,8 +88,8 @@
           "added 3d body"
         ],
         [
-          "track_dangling|112356710|111293291|8f41eca2-00b2-4819-8ca3-731a63119c4a|00000000-0000-0000-0000-000000000000",
-          "it's an antenna"
+          "track_dangling|112600000|111500000|44fffc28-3d49-41d1-ada7-459ec9821854|00000000-0000-0000-0000-000000000000",
+          "it's an antenna, duh"
         ]
       ],
       "meta": {
@@ -224,8 +224,8 @@
         0.0,
         0.09,
         0.11,
-        0.118,
         0.15,
+        0.154,
         0.2,
         0.3,
         0.4,
@@ -545,7 +545,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.118,
+        "track_width": 0.154,
         "wire_width": 12
       }
     ],
@@ -589,7 +589,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "export/BOM v0.5.csv",
+    "bom_export_filename": "export/BOM v0.6.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
@@ -731,7 +731,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "export/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
