@@ -7098,6 +7098,12 @@
 		(uuid "3bbfd158-e060-440c-baab-27fa3afdf292")
 	)
 	(junction
+		(at 506.73 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d50cbe6-cde3-4502-bd13-cf6fbd4992c9")
+	)
+	(junction
 		(at 478.79 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7212,6 +7218,12 @@
 		(uuid "71836db8-7867-42d4-9697-449245f9bbd9")
 	)
 	(junction
+		(at 532.13 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73e560ae-fb44-4ca3-81bb-02df0d4c33e1")
+	)
+	(junction
 		(at 557.53 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7266,6 +7278,12 @@
 		(uuid "87534ebf-f81d-409f-a9b9-c6c574d420de")
 	)
 	(junction
+		(at 506.73 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a77b65-c2ca-4a24-9211-8ed5ab87fd29")
+	)
+	(junction
 		(at 336.55 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7276,6 +7294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a091a30-9b00-4f9d-954e-544b574f43dc")
+	)
+	(junction
+		(at 532.13 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c1ec039-1510-4357-be96-3c56107ba77c")
 	)
 	(junction
 		(at 374.65 373.38)
@@ -7434,6 +7458,12 @@
 		(uuid "da31ab45-2af6-4729-b3ea-ab7f40963f8e")
 	)
 	(junction
+		(at 327.66 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc7138d7-7ea1-4341-a0a6-011dc83c9741")
+	)
+	(junction
 		(at 488.95 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7535,13 +7565,27 @@
 		(color 0 0 0 0)
 		(uuid "f645e62a-b3f3-466a-8fc6-9a40ba3a40e6")
 	)
+	(junction
+		(at 327.66 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff43881e-604e-41ba-8f6c-88ff8e0d6c90")
+	)
 	(no_connect
 		(at 113.03 129.54)
 		(uuid "0ba5bf16-9a81-4ce7-9181-465f68498e4c")
 	)
 	(no_connect
+		(at 182.88 137.16)
+		(uuid "0ec031d7-6827-45fb-8509-e623bbc41287")
+	)
+	(no_connect
 		(at 34.29 384.81)
 		(uuid "12a21b80-2841-4fb4-baeb-7bc62cc060b3")
+	)
+	(no_connect
+		(at 182.88 134.62)
+		(uuid "274051a1-c90c-4ac0-b3a8-968900d254da")
 	)
 	(no_connect
 		(at 34.29 377.19)
@@ -7566,6 +7610,10 @@
 	(no_connect
 		(at 59.69 354.33)
 		(uuid "588855e8-627f-4e67-baa3-e9b717f13944")
+	)
+	(no_connect
+		(at 182.88 73.66)
+		(uuid "5d92f201-0f5c-4547-9689-d73f08c72e79")
 	)
 	(no_connect
 		(at 59.69 361.95)
@@ -7600,16 +7648,44 @@
 		(uuid "8bf385b3-fa7c-47cb-898d-e574b652e1c4")
 	)
 	(no_connect
+		(at 182.88 78.74)
+		(uuid "8d3bc282-8db4-43c8-a478-e3e73f1f4aad")
+	)
+	(no_connect
 		(at 72.39 354.33)
 		(uuid "92c5b8e6-2c87-4a6d-a3d3-e77a8e8caa36")
+	)
+	(no_connect
+		(at 182.88 132.08)
+		(uuid "9e2e4d55-b02a-4a03-903b-c357a4f62bb5")
+	)
+	(no_connect
+		(at 182.88 76.2)
+		(uuid "a7e3af0b-126f-4d14-9932-4678b4d7d1d6")
 	)
 	(no_connect
 		(at 46.99 384.81)
 		(uuid "abd8a92b-965d-4505-b8f8-1a26233b58aa")
 	)
 	(no_connect
+		(at 182.88 129.54)
+		(uuid "b4875f77-02b4-46fc-b9fd-ad18d2c939db")
+	)
+	(no_connect
+		(at 182.88 121.92)
+		(uuid "d60cae79-7272-45fb-8777-ba3919c523d4")
+	)
+	(no_connect
+		(at 182.88 149.86)
+		(uuid "d89123bb-ecc9-4ee9-bfaa-c0b0babcd225")
+	)
+	(no_connect
 		(at 59.69 384.81)
 		(uuid "e1cd8fdf-7128-460a-900a-c0e29d12e2b5")
+	)
+	(no_connect
+		(at 182.88 109.22)
+		(uuid "e2735c51-df8c-4ee8-99d4-39ffed1ac445")
 	)
 	(wire
 		(pts
@@ -7630,6 +7706,16 @@
 			(type default)
 		)
 		(uuid "01b5a696-405f-4a14-85df-be11d1d10a41")
+	)
+	(wire
+		(pts
+			(xy 312.42 194.31) (xy 327.66 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02476f72-0ad1-4aa0-9e9b-8b0dff1661fe")
 	)
 	(wire
 		(pts
@@ -7740,6 +7826,16 @@
 			(type default)
 		)
 		(uuid "0d36c05d-f5ac-4168-80d1-41c91b1a58f9")
+	)
+	(wire
+		(pts
+			(xy 532.13 227.33) (xy 532.13 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3af134-7687-4ce5-bbec-1f14c781fb1f")
 	)
 	(wire
 		(pts
@@ -8023,6 +8119,16 @@
 	)
 	(wire
 		(pts
+			(xy 532.13 213.36) (xy 532.13 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206753d7-8293-4494-9292-28817c4cb273")
+	)
+	(wire
+		(pts
 			(xy 511.81 54.61) (xy 521.97 54.61)
 		)
 		(stroke
@@ -8160,6 +8266,16 @@
 			(type default)
 		)
 		(uuid "292c1b53-cb89-414b-acf9-fa2a153c07c4")
+	)
+	(wire
+		(pts
+			(xy 312.42 180.34) (xy 312.42 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3d51ea-5215-4d05-a9ab-ec6a5c19017d")
 	)
 	(wire
 		(pts
@@ -8580,6 +8696,16 @@
 			(type default)
 		)
 		(uuid "4de0151a-2375-451a-b9f4-5bb84632cc3a")
+	)
+	(wire
+		(pts
+			(xy 506.73 227.33) (xy 506.73 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1b6c7c-051c-474c-953d-508b43a43a10")
 	)
 	(wire
 		(pts
@@ -9020,6 +9146,16 @@
 			(type default)
 		)
 		(uuid "6f68e01d-3b55-4a28-aafa-d54e2994c67c")
+	)
+	(wire
+		(pts
+			(xy 523.24 213.36) (xy 532.13 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbdedc0-44f6-4ba7-9690-574c2e3cfc2d")
 	)
 	(wire
 		(pts
@@ -9503,6 +9639,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 187.96) (xy 312.42 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9248fcd5-52cf-47a8-ab4f-0c658da649d9")
+	)
+	(wire
+		(pts
 			(xy 407.67 292.1) (xy 424.18 292.1)
 		)
 		(stroke
@@ -9580,6 +9726,16 @@
 			(type default)
 		)
 		(uuid "98f4fa1c-8637-47d0-a565-46b668f7c4e6")
+	)
+	(wire
+		(pts
+			(xy 515.62 213.36) (xy 506.73 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9981e3dd-fdaf-4c87-9031-34851c93bf90")
 	)
 	(wire
 		(pts
@@ -9823,6 +9979,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 173.99) (xy 327.66 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a883d241-e439-4c21-8be5-a099ca85a81e")
+	)
+	(wire
+		(pts
 			(xy 163.83 99.06) (xy 182.88 99.06)
 		)
 		(stroke
@@ -9900,6 +10066,16 @@
 			(type default)
 		)
 		(uuid "b0f70ee9-8a41-4b08-84a1-82991650a804")
+	)
+	(wire
+		(pts
+			(xy 506.73 213.36) (xy 506.73 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10fca75-7f14-47df-abe2-90d8fc54b4c1")
 	)
 	(wire
 		(pts
@@ -10831,16 +11007,6 @@
 		)
 		(uuid "18461851-0dff-4797-829d-3781915558c6")
 	)
-	(label "LED1"
-		(at 182.88 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d0c478e-c589-4581-b2a1-6f42b3577538")
-	)
 	(label "COMPOSITE_SYNC"
 		(at 505.46 41.91 180)
 		(effects
@@ -10962,16 +11128,6 @@
 		(uuid "45bb99b6-c672-4edb-83fa-00bbb3bb0213")
 	)
 	(label "WHITE_SELECT"
-		(at 182.88 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4920587d-d971-419e-9750-330e1412d28f")
-	)
-	(label "WHITE_SELECT"
 		(at 439.42 149.86 90)
 		(effects
 			(font
@@ -10980,6 +11136,16 @@
 			(justify left bottom)
 		)
 		(uuid "4979f2ca-9763-4ecf-829d-bb7b9140b72d")
+	)
+	(label "LED1"
+		(at 182.88 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "499216bc-7960-467b-a7ff-f54078606dd2")
 	)
 	(label "TX1"
 		(at 182.88 124.46 180)
@@ -11161,6 +11327,16 @@
 		)
 		(uuid "937f52e9-955d-4d35-b466-4708361a700d")
 	)
+	(label "WHITE_SELECT"
+		(at 182.88 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "959f0823-54a2-4d40-807c-e4ce24ccfd3e")
+	)
 	(label "SWDIO"
 		(at 100.33 142.24 0)
 		(effects
@@ -11201,6 +11377,16 @@
 		)
 		(uuid "a52e6c79-41c1-4c2c-b8e2-dc9a72a3cc74")
 	)
+	(label "VWHITE_PWM"
+		(at 182.88 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acc305df-27c6-451f-b1c5-bbcbae4a62d8")
+	)
 	(label "VSYNC"
 		(at 500.38 48.26 180)
 		(effects
@@ -11230,6 +11416,16 @@
 			(justify right bottom)
 		)
 		(uuid "b314bcda-481f-4238-8fef-3e2be12cb678")
+	)
+	(label "LED2"
+		(at 182.88 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7205a0b-4570-4dcf-b838-4ef13ace157b")
 	)
 	(label "VSEL2"
 		(at 450.85 299.72 180)
@@ -11270,16 +11466,6 @@
 			(justify right bottom)
 		)
 		(uuid "c34c0339-ee0b-4491-88df-4cf34b638afb")
-	)
-	(label "LED2"
-		(at 182.88 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce5601eb-935a-4074-9172-5b2ebaf27039")
 	)
 	(label "BLACK_CHG"
 		(at 182.88 96.52 180)
@@ -11360,16 +11546,6 @@
 			(justify left bottom)
 		)
 		(uuid "efd5fcb7-b86b-45e0-82d0-c706ab3e6984")
-	)
-	(label "VWHITE_PWM"
-		(at 182.88 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2f377f2-4b6d-4bbb-9f6e-4c3edfc45683")
 	)
 	(label "VSEL0"
 		(at 450.85 294.64 180)
@@ -12638,83 +12814,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G66")
-		(at 375.92 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16d3e348-a9fe-48e7-ae11-ff4bdc0aa3ac")
-		(property "Reference" "U5"
-			(at 374.015 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G66"
-			(at 374.015 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 375.92 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
-			(at 375.92 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
-			(at 375.92 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "672843c5-2245-4f8e-bee3-9b9ddccf2cb8")
-		)
-		(pin "5"
-			(uuid "3e4044f9-0940-4206-b586-cc42813e285a")
-		)
-		(pin "1"
-			(uuid "9e26b6db-ff07-4ce6-9185-001fcf193fd8")
-		)
-		(pin "2"
-			(uuid "f7deb81b-f57c-4571-9644-63a294d4feac")
-		)
-		(pin "4"
-			(uuid "7832829f-e17c-412e-89db-4113f78dece9")
-		)
-		(instances
-			(project ""
-				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 553.72 161.29 90)
 		(unit 1)
@@ -12998,6 +13097,88 @@
 			(project ""
 				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:FSA3157P6X")
+		(at 454.66 193.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cd788bb-195c-49bc-b60a-54d23556d358")
+		(property "Reference" "U10"
+			(at 454.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FSA3157P6X"
+			(at 454.66 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 454.025 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
+			(at 454.025 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6"
+			(at 454.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9ad1a99d-23ec-40f3-a612-83f836dd1d67")
+		)
+		(pin "4"
+			(uuid "c9b62b73-4007-44bc-b889-3fc004fcf7b4")
+		)
+		(pin "2"
+			(uuid "ac916636-f922-424d-bc4b-101e79183894")
+		)
+		(pin "5"
+			(uuid "9cefc2e1-48d1-4a3f-a864-9e713f4a9482")
+		)
+		(pin "1"
+			(uuid "79d4e8f7-74df-4c9f-807e-c032664c1ef1")
+		)
+		(pin "3"
+			(uuid "f7301ef5-ee7c-48b9-b08b-c62da17b9253")
+		)
+		(instances
+			(project ""
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -16208,87 +16389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:FSA3157P6X")
-		(at 454.66 193.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49ba6a5a-7667-400a-90ee-4d501f4110ca")
-		(property "Reference" "U10"
-			(at 454.66 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FSA3157P6X"
-			(at 454.66 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 454.025 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
-			(at 454.025 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6"
-			(at 454.66 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6b143859-f9d7-4228-825b-a764b4005f1e")
-		)
-		(pin "6"
-			(uuid "6ffa3f3b-2d51-418e-bdfe-92fd26d11ec8")
-		)
-		(pin "3"
-			(uuid "d23aec5a-2905-40e6-ab32-30da8d54f15b")
-		)
-		(pin "2"
-			(uuid "0622a5ad-169b-4c6d-b216-2226872c87bf")
-		)
-		(pin "1"
-			(uuid "ad44febf-669e-4df1-80fd-5c5fd25c73b8")
-		)
-		(pin "5"
-			(uuid "6dd1d78b-45dc-487e-9277-c4c2af7c12c3")
-		)
-		(instances
-			(project ""
-				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 518.16 161.29 0)
 		(unit 1)
@@ -17633,6 +17733,83 @@
 			(project ""
 				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
 					(reference "P16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G66")
+		(at 375.92 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d9216d-28b0-4d16-aebb-e60160ff1537")
+		(property "Reference" "U5"
+			(at 374.015 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G66"
+			(at 374.015 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 375.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+			(at 375.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+			(at 375.92 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ffa80d18-b52b-4669-bdd9-cce6649a0d19")
+		)
+		(pin "4"
+			(uuid "0001c011-c96d-42f3-9a25-835c6222117f")
+		)
+		(pin "1"
+			(uuid "05be4ce7-65a8-47cc-9c07-29d195485aa6")
+		)
+		(pin "3"
+			(uuid "c9839a27-286a-4b74-a3a4-a2738534b766")
+		)
+		(pin "2"
+			(uuid "cb68f00f-a716-4d35-8b0f-d21bfda44ed7")
+		)
+		(instances
+			(project ""
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -19637,6 +19814,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 327.66 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89956963-b700-4922-9f2d-1f5047a506ff")
+		(property "Reference" "#PWR080"
+			(at 327.66 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 327.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 327.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a41c6699-de62-4899-9518-10882db23ae2")
+		)
+		(instances
+			(project ""
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 46.99 358.14 0)
 		(unit 1)
@@ -20257,6 +20500,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 327.66 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7eea71-f328-494b-8905-d59c247ae992")
+		(property "Reference" "#PWR081"
+			(at 327.66 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa91813-f437-4d65-bd05-b471c1fe92f4")
+		)
+		(instances
+			(project ""
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 434.34 60.96 0)
 		(unit 1)
@@ -20322,6 +20631,88 @@
 				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
 					(reference "C11")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:FSA3157P6X")
+		(at 519.43 227.33 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d42cbee-f7c6-41b0-bd8b-c7ac8d0b0cb8")
+		(property "Reference" "U10"
+			(at 519.43 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FSA3157P6X"
+			(at 519.43 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 532.765 226.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF"
+			(at 530.86 226.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6"
+			(at 519.43 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9ad1a99d-23ec-40f3-a612-83f836dd1d67")
+		)
+		(pin "4"
+			(uuid "c9b62b73-4007-44bc-b889-3fc004fcf7b4")
+		)
+		(pin "2"
+			(uuid "ac916636-f922-424d-bc4b-101e79183894")
+		)
+		(pin "5"
+			(uuid "9cefc2e1-48d1-4a3f-a864-9e713f4a9482")
+		)
+		(pin "1"
+			(uuid "79d4e8f7-74df-4c9f-807e-c032664c1ef1")
+		)
+		(pin "3"
+			(uuid "f7301ef5-ee7c-48b9-b08b-c62da17b9253")
+		)
+		(instances
+			(project ""
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "U10")
+					(unit 2)
 				)
 			)
 		)
@@ -20667,6 +21058,85 @@
 				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
 					(reference "R41")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G66")
+		(at 327.66 184.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a360a092-34ec-44c0-a820-1e08ecfb0f34")
+		(property "Reference" "U5"
+			(at 334.01 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC1G66"
+			(at 334.01 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 327.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+			(at 327.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+			(at 327.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ffa80d18-b52b-4669-bdd9-cce6649a0d19")
+		)
+		(pin "4"
+			(uuid "0001c011-c96d-42f3-9a25-835c6222117f")
+		)
+		(pin "1"
+			(uuid "05be4ce7-65a8-47cc-9c07-29d195485aa6")
+		)
+		(pin "3"
+			(uuid "c9839a27-286a-4b74-a3a4-a2738534b766")
+		)
+		(pin "2"
+			(uuid "cb68f00f-a716-4d35-8b0f-d21bfda44ed7")
+		)
+		(instances
+			(project ""
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -23582,6 +24052,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 312.42 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1254776-c961-401d-b50a-595c93ef0324")
+		(property "Reference" "C57"
+			(at 316.23 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 316.23 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 313.3852 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fec06826-8c2c-4681-934d-673075aa7313")
+		)
+		(pin "1"
+			(uuid "f3316c85-d16e-435c-b914-af538ddac1fb")
+		)
+		(instances
+			(project "Pixel"
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 412.75 52.07 90)
 		(unit 1)
@@ -25176,6 +25716,74 @@
 			(project ""
 				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 519.43 213.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e27dc598-461c-4e19-963b-d269b8f9889b")
+		(property "Reference" "C56"
+			(at 514.604 210.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 525.272 210.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 523.24 214.3252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 519.43 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 519.43 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65fa00b9-a5f5-4928-b6d6-9b691365e0f5")
+		)
+		(pin "2"
+			(uuid "3f969331-71a0-441a-ab21-b9ef76610977")
+		)
+		(instances
+			(project "Pixel"
+				(path "/39a53f09-8c12-4f22-849c-ad803039cb47"
+					(reference "C56")
 					(unit 1)
 				)
 			)
