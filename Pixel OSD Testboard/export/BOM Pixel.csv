@@ -1,0 +1,56 @@
+#,Reference,Value,Footprint,Qty
+1,'C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C14,C15,C16,C19,C20,C22,C28,C45,C46,C54,C56,C57',100n,Capacitor_SMD:C_0402_1005Metric,22
+2,'C11,C12',100n,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2
+3,C13,510p,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1
+4,'C17,C18,C52',10u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,3
+5,'C21,C49,C50,C55',1u,Capacitor_SMD:C_0402_1005Metric,4
+6,C23,10p,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1
+7,'C24,C25,C26,C27',100n,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,4
+8,'C29,C30,C31,C32,C33,C34,C35,C36',C,Capacitor_SMD:C_0201_0603Metric,8
+9,'C37,C38,C39,C40,C41,C42,C43,C44',C,Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder,8
+10,'C47,C51',10u,Capacitor_SMD:C_0402_1005Metric,2
+11,C48,10u,Capacitor_SMD:C_0603_1608Metric,1
+12,C53,1u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1
+13,D1,1N4148WS,Diode_SMD:D_SOD-323,1
+14,D2,yellow,LED_SMD:LED_0603_1608Metric,1
+15,D3,green,LED_SMD:LED_0603_1608Metric,1
+16,D4,red,LED_SMD:LED_0603_1608Metric,1
+17,D5,SL16,Diode_SMD:D_SOD-123,1
+18,J1,USB_C_Receptacle_USB2.0_16P,Kolibri custom:USB-C SMD+THT,1
+19,L1,10u,Inductor_SMD:L_0805_2012Metric,1
+20,'P1,P2,P3,P4,P5,P6,P7,P8',~,Kolibri custom:Solder_Pad_rounded,8
+21,'P9,P10,P11,P12,P13,P14',~,Kolibri custom:Solder_Pad_octa,6
+22,'P15,P16,P17,P18',~,Kolibri custom:Solder_Pad_rect,4
+23,Q1,2SK3019,Package_TO_SOT_SMD:SOT-523,1
+24,'R1,R2',5.1k,Resistor_SMD:R_0402_1005Metric,2
+25,'R3,R4',27,Resistor_SMD:R_0402_1005Metric,2
+26,R5,680,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1
+27,R6,620,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1
+28,'R7,R9,R11,R13',33k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,4
+29,'R8,R10,R12,R14',100k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,4
+30,'R15,R39',1k,Resistor_SMD:R_0402_1005Metric,2
+31,'R16,R27,R36',10k,Resistor_SMD:R_0402_1005Metric,3
+32,R18,100,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1
+33,'R19,R20',100k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2
+34,'R22,R23,R24,R25,R26,R43,R44',1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,7
+35,'R28,R29',75,Resistor_SMD:R_0402_1005Metric,2
+36,'R32,R33',100k,Resistor_SMD:R_0402_1005Metric,2
+37,R34,47k,Resistor_SMD:R_0402_1005Metric,1
+38,R35,15k,Resistor_SMD:R_0402_1005Metric,1
+39,'R37,R38',470,Resistor_SMD:R_0402_1005Metric,2
+40,R40,1M,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1
+41,R41,2.2M,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1
+42,R42,390k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1
+43,SW1,~,Kolibri custom:Button C530669,1
+44,'TP1,TP2,TP3,TP4,TP5,TP6,TP8,TP9,TP10',TestPoint_Probe,TestPoint:TestPoint_Pad_D1.0mm,9
+45,U1,RP2040,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,1
+46,U2,LM1881,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1
+47,U3,W25Q16JVSS,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,1
+48,U4,Opamp_Quad,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,1
+49,U5,74LVC1G66,Package_TO_SOT_SMD:SOT-353_SC-70-5,1
+50,'U6,U10',FSA3157P6X,Package_TO_SOT_SMD:SOT-363_SC-70-6,2
+51,U7,TMUX1308DYY,Package_SO:Texas_DYY0016A_TSOT-23-16_2x4.2mm_P0.5mm,1
+52,U8,LGS5145,Package_TO_SOT_SMD:SOT-23-6,1
+53,U9,C19631737,Package_TO_SOT_SMD:SOT-23-3,1
+54,U11,OPA188xxDBV,Package_TO_SOT_SMD:TSOT-23-5,1
+55,Y1,ASE-xxxMHz,Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm_HandSoldering,1
